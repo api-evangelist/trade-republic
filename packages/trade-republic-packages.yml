@@ -1,0 +1,43 @@
+generated: '2026-07-21'
+method: searched
+source: npm registry search + PyPI JSON API + github.com/traderepublic
+description: >-
+  Trade Republic publishes no first-party client libraries and no public
+  developer API. The packages below are community-built, unofficial clients
+  that reverse the private mobile/web app API (api.traderepublic.com,
+  WebSocket-based); they are catalogued as ecosystem signal only. The official
+  GitHub org (github.com/traderepublic) ships two open-source infrastructure
+  tools (Cilicon, SectionKit), not API SDKs.
+packages:
+  - language: python
+    registry: pypi
+    name: pytr
+    url: https://pypi.org/project/pytr/
+    source: https://github.com/pytr-org/pytr
+    install: pip install pytr
+    official: false
+    note: Community CLI/library for the private Trade Republic app API (v0.4.9 at fetch time).
+  - language: python
+    registry: pypi
+    name: trade-republic
+    url: https://pypi.org/project/trade-republic/
+    source: https://github.com/erim32/trade-republic
+    install: pip install trade-republic
+    official: false
+    note: Self-described unofficial Python SDK — account, portfolio, orders, market data (v0.1.1 at fetch time).
+  - language: javascript
+    registry: npm
+    name: nurtrade
+    url: https://www.npmjs.com/package/nurtrade
+    install: npm install nurtrade
+    official: false
+    note: Unofficial TypeScript SDK + CLI for the Trade Republic app API.
+official_org:
+  github: https://github.com/traderepublic
+  public_repos:
+    - name: Cilicon
+      description: Self-hosted ephemeral macOS CI on Apple Silicon
+      language: Swift
+    - name: SectionKit
+      description: Reusable sections for UICollectionView
+      language: Swift

@@ -1,9 +1,27 @@
 aid: trade-republic
 name: Trade Republic
-description: 'Trade Republic is a company surfaced as a portfolio company of accel, creandum, founders-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Trade Republic is a Berlin-based digital bank and Europe's largest savings
+  platform, offering commission-optimized trading of stocks, ETFs, derivatives,
+  and crypto, ETF and stock savings plans, interest on uninvested cash, and a
+  Visa card. Trade Republic Bank GmbH holds a full German banking license and
+  serves customers across European markets. The company publishes no public
+  developer API, API documentation, or first-party SDKs — its mobile and web
+  apps run on a private WebSocket-based backend (api.traderepublic.com) that a
+  community ecosystem of unofficial clients has grown around.
 url: https://raw.githubusercontent.com/api-evangelist/trade-republic/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.ctfassets.net/vkizfq3pbtzc/1qZ98P57qw3kjUMS6D3PQD/6ffe45ffdf5ece2c750995c3d3b4d6b1/HomepageTR_Thumbnail_medium.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- FinTech
+- Trading
+- Investing
+- Banking
+- Savings
+- Brokerage
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +52,34 @@ maintainers:
 common:
 - type: Website
   url: https://traderepublic.com/
+- type: Support
+  url: https://traderepublic.com/en-de/support
+- type: Pricing
+  url: https://traderepublic.com/en-de/pricing
+- type: PrivacyPolicy
+  url: https://traderepublic.com/assets/files/Privacy-Website_en-DE.pdf
+- type: Blog
+  url: https://engineering.traderepublic.com/
+- type: GitHubOrganization
+  url: https://github.com/traderepublic
+- type: Login
+  url: https://app.traderepublic.com/login
+- type: Security
+  url: https://traderepublic.com/.well-known/security.txt
+- type: SecurityTxt
+  url: well-known/trade-republic-security.txt
+- type: WellKnown
+  url: well-known/trade-republic-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/trade-republic-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/trade-republic-domain-security.yml
+- type: Packages
+  url: packages/trade-republic-packages.yml
+- type: LLMsTxt
+  url: llms/trade-republic-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
