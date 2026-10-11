@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "trade-republic",
+    "captured_at": "2026-10-11T193945",
+    "source_url": "https://traderepublic.com/",
+    "source_type": "Website",
+    "file": "trade-republic-2026-10-11T193945.png",
+    "bytes": 425470,
+    "capture": "playwright-local"
+  }
+]
