@@ -10,6 +10,7 @@ checked:
 - https://monid.ai/tools/trade-republic
 - https://n8n.io/integrations/trade-republic/
 - https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv
+- https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv
 - https://zapier.com/apps/trade-republic/integrations
 summary: null
 marketplace_apps: []
@@ -40,4 +41,36 @@ edges:
     detected: '2026-10-14'
   detected_by: sweep-crypto.py
   first_seen: '2026-10-14'
+- partner_name: ISO 10383 (MIC)
+  partner: null
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv
+  source: mic
+  category: registered trading venues and market segments
+  contract_reference:
+    register: ISO 10383 Market Identifier Codes (ISO 20022 registration authority)
+    spec_file: null
+    standard: ISO 10383
+    role: venue operator
+    matched_domain: traderepublic.com
+    matched_by: domain:traderepublic.com
+    categories:
+    - SINT
+    operating_mics:
+    - TRBX
+    mics:
+    - mic: TRBX
+      operating_mic: TRBX
+      segment: OPRT
+      market: TRADE REPUBLIC BANK
+      category: SINT
+      legal_name: TRADE REPUBLIC BANK GMBH
+      country: DE
+    detected_by: sweep-capital-markets.py
+    detected: '2026-10-15'
+  detected_by: sweep-capital-markets.py
+  first_seen: '2026-10-15'
 templates: []
